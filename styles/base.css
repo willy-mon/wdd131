@@ -1,0 +1,30 @@
+
+
+
+
+
+nav {
+    display: flex;
+}
+nav:hover {
+
+}
+main {
+    max-width: ;
+    align-content: center;
+}
+.card {
+    display: grid;
+}
+.me img {
+    float: right;
+}
+
+.profile {
+    height: auto;
+    margin-right: 2rem;
+
+}
+img {
+    margin: .5rem;
+}

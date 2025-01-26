@@ -1,0 +1,70 @@
+.nav_bar {
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto 1rem;
+}
+
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+.home {
+    border: 2px;
+    display: block;
+    color: black;
+    padding: 0.75rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.old {
+    border: 2px;
+    display: block;
+    color: black;
+    padding: 0.75rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.new {
+    border: 2px;
+    display: block;
+    color: black;
+    padding: 0.75rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.large {
+    border: 2px;
+    display: block;
+    color: black;
+    padding: 0.75rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.small {
+    border: 2px;
+    display: block;
+    color: black;
+    padding: 0.75rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+figure {
+    display: flex;
+    flex-wrap: wrap;
+}
