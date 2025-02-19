@@ -1,0 +1,157 @@
+:root {
+    --primary-color: rgb(255, 242, 242) ;
+    --secondary-color: rgb(3, 7, 11);
+    --secondary-font-color: rgb(229,101,58);
+
+    --paragraph-font: "DM Sans", sans-serif;
+    --title-font: "Rubik";
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.title {
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: center;
+    letter-spacing: 0.74px;
+    padding-bottom: 10px;
+    font-family: var(--title-font);
+    font-weight: 600;
+    font-size: 50px;
+
+}
+
+header {
+    position: fixed;
+    z-index: 20000;
+    width: 100%;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    background-color:var(--secondary-color);
+    text-align: center;
+    flex: 1 1 100%;
+    color: aliceblue;
+    display: block;
+    padding: 12px;
+    border: 1.2px groove black;
+    pointer-events: fill;
+    font-family: var(--paragraph-font);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: red;
+}
+
+body {
+    background-color: var(--secondary-color);
+}
+
+article {
+    background-color: var(--secondary-color);
+    color: aliceblue;
+    text-align: center;
+    justify-content: center;
+    flex: 1 1 100%;
+    display: block;
+}
+
+h2 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-family: var(--title-font);
+    font-size: 50px ;
+    
+}
+
+.agent-header {
+    border-top: 1px solid aliceblue;
+    padding-top: 15px;
+    font-size: 50px ;
+    background-color: rgb(24, 84, 137);
+}
+
+h3 {
+    font-family: var(--paragraph-font);
+    margin-top: 40px;
+    padding: 15px;
+}
+
+p {
+    font-family: var(--paragraph-font);
+    margin-bottom: 20px;
+    padding-inline-start: 3rem;
+    padding-inline-end: 3rem;
+    font-size: 17px;
+}
+
+.controller {
+    padding-top: 10rem;
+    text-align: center;
+    font-family: var(--title-font);
+    font-size: 30px;
+}
+
+#controller-img {
+    image-orientation: from-image;
+    opacity: 0.4;
+    
+}
+
+.sentinel {
+    font-family: var(--title-font);
+    margin-top: 10rem;
+    border-top: 7px outset rgb(19, 109, 244);
+    background-color: rgb(19, 109, blue);
+    padding: 10px;
+    font-size: 30px;
+}
+
+#sentinel-icon {
+    opacity: 0.4;
+}
+
+.duelist {
+    font-family: var(--title-font);
+    margin-top: 10rem;
+    border-top: 7px outset rgb(19, 109, 244);
+    background-color: rgb(19, 109, blue);
+    padding: 10px;
+    font-size: 30px;
+}
+
+#duelist-icon {
+    opacity: 0.4;
+}
+
+.Initiator {
+    font-family: var(--title-font);
+    margin-top: 10rem;
+    border-top: 7px outset rgb(19, 109, 244);
+    background-color: rgb(19, 109, blue);
+    padding: 10px;
+    font-size: 30px;
+}
+
+#initiator-img {
+    opacity: 0.4;
+}
+
+img {
+    padding: 10px;
+}

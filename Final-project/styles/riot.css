@@ -1,0 +1,59 @@
+:root {
+    --primary-color: rgb(255, 242, 242) ;
+    --secondary-color: rgb(3, 7, 11);
+    --secondary-font-color: rgb(229,101,58);
+
+    --paragraph-font: "DM Sans", sans-serif;
+    --title-font: "Rubik";
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.title {
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: center;
+    letter-spacing: 0.74px;
+    padding-bottom: 10px;
+    font-family: var(--title-font);
+    font-weight: 600;
+    font-size: 50px;
+
+}
+
+header {
+    position: fixed;
+    z-index: 20000;
+    width: 100%;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    background-color:var(--secondary-color);
+    text-align: center;
+    flex: 1 1 100%;
+    color: aliceblue;
+    display: block;
+    padding: 12px;
+    border: 1.2px groove black;
+    pointer-events: fill;
+    font-family: var(--paragraph-font);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: red;
+}
