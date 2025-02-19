@@ -7,18 +7,23 @@
     --title-font: "Rubik";
 }
 
+header {
+    position: fixed;
+    z-index: 20000;
+    width: 100%;
+    
+}
+
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
-    background-color: var(--primary-color);
 }
 
 .title {
     background-color: var(--secondary-color);
     color: white;
     text-align: center;
-    letter-spacing: 0.74px;
+    letter-spacing: 1px;
     padding-bottom: 10px;
     font-family: var(--title-font);
     font-weight: 600;
@@ -26,12 +31,6 @@
 
 }
 
-header {
-    position: fixed;
-    z-index: 20000;
-    width: 100%;
-
-}
 
 nav {
     display: flex;
@@ -60,65 +59,100 @@ a:active {
     color: red;
 }
 
-img {
-    max-width: 600px;
-    min-width: 600px;
-    box-sizing: border-box;
-    background-color: rgb(188, 185, 180);
-    padding-left: 8rem;
-    padding-right: 8rem;
+
+.main-pic {
+    max-width: 900px;
+    max-height: 900px;
+    min-height: 900px;
+    min-width: 900px;
+    margin-left: 18rem;
 }
 
-.SUNSET {
-    position: absolute;
-    object-fit: contain;
+.bottom-pics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 8px;
+    padding-left: 19px ;
 }
 
-.LOTUS {
-    position: absolute;
-    object-fit: contain;
+#tiny-pics {
+    min-height: 200px;
+    max-height: 200px;
 }
 
-.PEARL {
-    position: absolute;
-    object-fit: contain;
+.sunset-title {
+    font-family: var(--title-font);
+    font-size: 40px;
 }
 
-.ASCENT {
-    position: absolute;
-    object-fit: contain;
+
+h1 {
+    font-family: var(--title-font);
+    font-size: 22px;
+    display: block;
 }
 
-.BREEZE {
-    position: absolute;
-    object-fit: contain;
+
+.Sunset {
+    background-color: var(--primary-color);
+    padding: 32px 0 32px;
 }
 
-.ICEBOX {
-    position: absolute;
-    object-fit: contain;
+
+
+.ieyshm {
+    margin: 0px auto;
+    padding-left: calc(32px + 0px);
+    padding-right: 32px;
+    padding-top: 6rem;
+    width: 100%;
 }
 
-.BIND {
-    position: absolute;
-    object-fit: contain;
+.inside-text {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 24px;
 }
 
-.HAVEN {
-    position: absolute;
-    object-fit: contain;
+.inside-text .content {
+    display: flex;
+    flex-direction: column;
+    max-width: 650px;
+    background-color: rgb(227, 218, 218);
+    padding: 1em;
 }
 
-.SPLIT {
-    position: absolute;
-    object-fit: contain;
+.inside-text .sunset-title {
+    text-wrap: balance;
+    word-break: break-word;
+    font-family: var(--title-font);
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 48px;
+    letter-spacing: 0.48px;
+    margin-bottom: 16px;
 }
 
-.FRAGTURE {
-    position: absolute;
-    object-fit: contain;
+.inside-text .sunset-text {
+    text-wrap: balance;
+    font-family: var(--paragraph-font);
+    font-size: 14px;
 }
 
-section {
-    text-align: center;
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.inside-text .viewport {
+    background-color: var(--primary-color);
+    
 }

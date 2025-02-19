@@ -1,6 +1,8 @@
 :root {
     --primary-color: rgb(255, 242, 242) ;
     --secondary-color: rgb(3, 7, 11);
+    --secondary-font-color: rgb(229,101,58);
+    --primary-shadow: rgb(229,217,217);
 
     --paragraph-font: "DM Sans", sans-serif;
     --title-font: "Rubik";
@@ -74,6 +76,8 @@ header {
     
 }
 
+
+
 h2 {
     text-align: center;
     font-size: 2rem;
@@ -92,9 +96,16 @@ body {
     background-color: var(--primary-color);
 }
 
-footer{
-    background-color: black;
-    color: white;
+footer { 
+    background-color: var(--primary-shadow);
+    color: aliceblue;
+    text-align: center;
+    height: 50px;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
 }
 
 #spike {
